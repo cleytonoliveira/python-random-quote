@@ -12,7 +12,7 @@ def primary():
         last = len(quotes) - 1
 
         for i in range(2):
-            print(f'{i + 1} - {quotes[random_quote(last)]}')
+            print(f'{i + 1} - {quotes[random_quote(last)].strip()}')
 
 
 if __name__ == "__main__":
