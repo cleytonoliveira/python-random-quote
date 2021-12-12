@@ -13,3 +13,4 @@ Avoid administrative distraction
 Design for failure
 Keep it logically awesome
 Learn as if you will live forever, live like you will die tomorrow.
+My new quote here
