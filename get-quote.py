@@ -6,7 +6,7 @@ def random_quote(last):
     return random_quote
 
 
-def primary():
+def main():
     with open("quotes.txt") as file:
         quotes = file.readlines()
         last = len(quotes) - 1
@@ -16,4 +16,4 @@ def primary():
 
 
 if __name__ == "__main__":
-    primary()
+    main()
